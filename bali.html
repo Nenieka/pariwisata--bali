@@ -1,0 +1,233 @@
+!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bali Tourism</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <div class="wrapper">
+        <div class="logo">
+            <a href="#home">🌴 Bali Tourism</a>
+        </div>
+
+        <div class="menu">
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#tentang">Tentang Bali</a></li>
+                <li><a href="#destinasi">Destinasi</a></li>
+                <li><a href="#reservasi">Galeri</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+                <li><a href="#reservasi" class="order">Pesan Sekarang</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- BERANDA -->
+<header id="home">
+    <img src="bali1.jpg" alt="Keindahan Bali" class="gambar-utama">
+  <div class="bali">
+        <h3>Selamat Datang di</h3>
+        <h1>Bali 🌺</h1>
+
+        <p>
+            Pulau Dewata dengan sejuta pesona,
+            menawarkan keindahan alam, budaya yang kaya,
+            dan pengalaman tak terlupakan.
+        </p>
+
+        <a href="bali1.jpg   " class="btn">
+            Jelajahi Sekarang →
+        </a>
+    </>
+</header>
+
+<!-- TENTANG BALI -->
+<section class="about-section" id="tentang">
+
+    <div class="about-image">
+        <img src="lot.jpg" alt="Tanah Lot Bali">
+    </div>
+
+    <div class="about-text">
+        <h2>Tentang <span>Bali</span></h2>
+
+        <p>
+            Bali adalah destinasi wisata kelas dunia
+            yang terkenal dengan pantainya yang indah,
+            budaya yang unik, serta keramahan penduduknya.
+            Dari pantai hingga pura, Bali selalu punya
+            cerita untuk setiap pelancong.
+        </p>
+
+        <a href="#destinasi" class="btn-outline">
+            Pelajari Lebih Lanjut →
+        </a>
+    </div>
+
+</section>
+
+<!-- DESTINASI WISATA -->
+<section class="destination-section" id="destinasi">
+
+    <div class="section-title">
+        <h2>Destinasi Populer</h2>
+        <p>Temukan keindahan tempat wisata di Bali</p>
+    </div>
+
+    <div class="destination-grid">
+
+        <div class="destination-card">
+            <img src="pantai.jpg" alt="Pantai Kuta">
+            <div class="destination-name">
+                📍 Pantai Kuta
+            </div>
+        </div>
+
+        <div class="destination-card">
+            <img src="ubud.jpg" alt="Ubud">
+            <div class="destination-name">
+                📍 Ubud
+            </div>
+        </div>
+
+        <div class="destination-card">
+            <img src="lot2.jpg" alt="Tanah Lot">
+            <div class="destination-name">
+                📍 Tanah Lot
+            </div>
+        </div>
+
+        <div class="destination-card">
+            <img src="uluw.jpg" alt="Uluwatu">
+            <div class="destination-name">
+                📍 Uluwatu
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- RESERVASI DAN GOOGLE MAPS -->
+<section class="booking-section" id="reservasi">
+
+    <div class="booking-container">
+
+        <!-- FORM PEMESANAN -->
+        <div class="booking-form">
+
+            <h2>
+                Pesan Perjalananmu
+                <span>Sekarang!</span>
+            </h2>
+
+            <p>
+                Rencanakan liburan impianmu ke Bali
+                dengan mudah.
+            </p>
+
+            <form>
+
+                <input type="text"
+                    placeholder="Nama Lengkap"
+                    required>
+
+                <input type="nomer hp"
+                    placeholder="nomer anda"
+                    required>
+
+                <input type="date"
+                    required>
+
+                <select required>
+                    <option value="">Pilih Destinasi</option>
+                    <option>Pantai Kuta</option>
+                    <option>Ubud</option>
+                    <option>Tanah Lot</option>
+                    <option>Uluwatu</option>
+                </select>
+
+                <select required>
+                    <option value="">Jumlah Orang</option>
+                    <option>1 Orang</option>
+                    <option>2 Orang</option>
+                    <option>3 Orang</option>
+                    <option>4 Orang</option>
+                    <option>5 Orang</option>
+                </select>
+              <button type="submit">
+                pesan sekarang -->
+              </button>
+
+            </form>
+        </div>
+
+        <!-- GOOGLE MAPS LOKASI BALI -->
+        <div class="booking-map">
+
+            <iframe
+                src="https://maps.google.com/maps?q=Bali,Indonesia&t=&z=10&ie=UTF8&iwloc=&output=embed"
+                width="100%"
+                height="100%"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy">
+            </iframe>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer" id="kontak">
+
+    <div class="footer-container">
+
+        <div class="footer-column">
+            <h2>🌴 Bali Tourism</h2>
+            <p>
+                Discover the Beauty of Bali
+            </p>
+        </div>
+
+        <div class="footer-column">
+            <h3>Kontak Kami</h3>
+
+            <p>📍 Jl. Pantai Kuta, Bali</p>
+            <p>☎ +62 812 3456 7890</p>
+            <p>✉ bali.tourism@gmail.com</p>
+        </div>
+
+        <div class="footer-column">
+            <h3>Ikuti Kami</h3>
+
+            <div class="social-icons">
+                <a href="ig.jpg">Instagram</a>
+                <a href="#">YouTube</a>
+                <a href="#">TikTok</a>
+            </div>
+        </div>
+
+        <div class="footer-column">
+            <h3>Jam Operasional</h3>
+
+            <p>Setiap Hari</p>
+            <p>08.00 - 22.00 WITA</p>
+        </div>
+
+    </div>
+
+    <div class="reserved">
+        © 2026 Bali Tourism. All Rights Reserved.
+    </div>
+
+</footer>
+
+</body>
+</html>
